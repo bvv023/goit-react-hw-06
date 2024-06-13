@@ -1,0 +1,11 @@
+.container {
+  width: 350px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.title {
+  color: #333;
+}
