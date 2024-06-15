@@ -35,7 +35,7 @@ const ContactForm = () => {
         <ErrorMessage className={css.error} name="name" component="div" />
         
         <label className={css.label} htmlFor="number">Number</label>
-        <Field className={css.input} id="number" name="number" pattern="^[\d()+-]*$" />
+        <Field className={css.input} id="number" name="number" />
         <ErrorMessage className={css.error} name="number" component="div" />
         
         <button type="submit" className={css.button}>Add contact</button>
